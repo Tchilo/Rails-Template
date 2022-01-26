@@ -730,3 +730,12 @@ Processing by PagesController#hello as HTML
 Completed 200 OK in 47ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 15071)
 
 
+Started GET "/" for 127.0.0.1 at 2022-01-25 20:02:08 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 6.7ms | Allocations: 446)
+  Rendered layout layouts/application.html.erb (Duration: 659.6ms | Allocations: 35080)
+Completed 200 OK in 717ms (Views: 665.1ms | ActiveRecord: 0.0ms | Allocations: 40890)
+
+
